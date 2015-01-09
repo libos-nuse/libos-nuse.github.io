@@ -41,17 +41,22 @@ header {
   border-bottom: 2px dashed #57636F;
   padding: 20px 0;
   margin: 0 0 30px 0;
+
+  -webkit-box-shadow: 0 8px 15px #aaa;
+  -moz-box-shadow: 0 8px 15px #aaa;
+  box-shadow: 0 8px 15px #aaa;
 }
 
 header h1 {
-  font-size: 36px;
+  font-size: 38px;
   line-height: 1.5;
   margin: 0 0 10px 0;
   font-family: 'Nunito', sans-serif;
   color: #FFFFFF;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
+
+  text-shadow: 2px 2px 3px rgba(3,3,3,0.5);
+
+
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
 }
@@ -240,6 +245,10 @@ hr {
   color: #fff;
   font-weight: bold;
   font-family: 'Nunito', sans-serif;
+
+  -webkit-box-shadow: 0 2px 4px #333;
+  -moz-box-shadow: 0 2px 4px #333;
+  box-shadow: 0 2px 4px #333;
 }
 
  
