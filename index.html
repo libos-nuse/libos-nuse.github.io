@@ -84,39 +84,9 @@
 	</p>
 
 	<p>
-	  What? userspace ? kernel space ? See more detail in the
-	  following slides.
+	  What? userspace ? kernel space ? See more details in the slides and papers.
 	</p>
 
-	<div style="text-align:center;">
-	  <iframe src="http://www.slideshare.net/slideshow/embed_code/42007000"
-		  width="450" height="380" frameborder="0" marginwidth="0"
-		  marginheight="0" scrolling="no"
-		  style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
-	  </iframe>
-
-	  <p>
-	    <a href="//www.slideshare.net/hajimetazaki/nuse-network-stack-in-userspace-at-osio"
-	       title="NUSE (Network Stack in Userspace) at #osio"
-	       target="_blank">
-	      NUSE (Network Stack in Userspace) at #osio
-	    </a>
-	    from
-	    <a href="//www.slideshare.net/hajimetazaki" target="_blank">
-	      Hajime Tazaki
-	    </a>
-	  </p>
-	</div>
-
-	<div style="text-align:center;">
-	  <p>
-	    And its talk is available at YouTube.
-	  </p>
-	  <iframe width="450" height="320"
-		  src="//www.youtube.com/embed/GWTVr0en014" frameborder="0"
-		  allowfullscreen>
-	  </iframe>
-	</div>
 
 	</article>
 
@@ -136,11 +106,17 @@
 	    <code>
 $ make defconfig ARCH=lib
 $ make library ARCH=lib
+$ cd arch/lib/tools
 $ sudo ./nuse ping www.google.com </code>
 	  </pre>
 
+	<h3> Talks/Articles </h3>
+	<ul>
+	<li> Userspace networking: Network Stack in Userspace, New Directions in Operating Systems, London, Nov. 2014. [<a href=http://www.slideshare.net/hajimetazaki/nuse-network-stack-in-userspace-at-osio>slides</a>] [<a href=https://www.youtube.com/watch?v=GWTVr0en014&list=PLmRrx948XMnEUlzKOCYn3AzT8OAInP_5M>video</a>] </li>
+	<li> Library operating system with mainline Linux kernel, netdev0.1, Ottawa, Feb. 2015. [<a href=http://www.slideshare.net/hajimetazaki/library-operating-system-for-linux-netdev01>slides</a>] [<a href=files/netdev01-tazaki.pdf>paper</a>] </li>
+	</ul>
 	  <a class="btn" href="https://github.com/libos-nuse/net-next-nuse/wiki/Quick-Start">
-	    Documentation </a>
+	    Wiki </a>
 
 	</article>
 
